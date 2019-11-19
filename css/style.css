@@ -1,0 +1,164 @@
+	body {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 14px;
+	color:#3F3F3F;	
+}
+		/*Diseño del Encabezado*/
+	header {
+	background-color:#000000;
+	color: #F5F5F5;
+	text-align: center;
+	padding: 30px 30px 30px 30px;
+}
+
+
+	#hero{
+		/*
+	background-image: url("../img/slide-1.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 20% 0;
+	text-align: center;
+	color:#E5E5E5;
+		*/
+}
+
+#hero h3, #hero h2{
+	text-transform: uppercase;
+}
+
+	#hero h3{
+	color: #CDB083;
+	font-size: 18px;
+}
+
+#hero h2{
+	font-size: 45px;
+}
+
+#hero h2 span{
+	display: block;
+}
+
+#hero .btn-light{
+	padding: 1px 40px;
+	background-color: transparent;
+	border: 1px solid #cdb083;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 0;
+	color: #cdb083;
+	margin-top: 6%;
+}
+
+#hero .btn-light:hover{
+	border: 1px solid #B59667;
+}
+
+.section{
+	padding: 10% 0;
+}
+
+#modern{
+	background-color: #f2f2f2;
+}
+
+.title{
+	color: #af9f66;
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 10px;
+	font-weight: 100;
+	
+}
+
+.subtitle{
+	color: #999794;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 8px;
+	margin-top: 30px;
+}
+
+#modern h4{
+	color: #999794;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 0;
+	
+}
+
+.btn-dorado{
+	background-color: #AF9F66;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 25px;
+	letter-spacing: 2px;
+	border: 0;
+	margin-top: 30px;
+}
+
+.btn-dorado:hover{
+	background-color: #fff;
+	color:#AF9F66;
+}
+
+#features{
+	background-color: #f2f2f2;
+}
+
+
+
+#features li{
+	margin-bottom: 20px;
+}
+
+#features .btn-dorado{
+	background-color: #fff;
+	color: #af9f66;
+	border: 1px solid #af9f66;
+}
+
+#features .btn-dorado:hover{
+	border-color: #fff;
+}
+
+
+.subtitle::before,.title::after{
+	content:"";
+	width: 1px;
+	height: 40px;
+	background-color:#d2d2d2;
+	display:block;
+	margin: 0px auto 20px;
+}
+	
+
+#hero h3::before,
+#hero h2::after{
+	content:"";
+	width: 1px;
+	height: 40px;
+	background-color:#af9f66;
+	display:block;
+	margin: 0px auto 20px;
+}
+	
+.carousel-caption{
+	transform: translate(-50%, -50%);
+	top:50%;
+	left:50%;
+	
+}
+
+
+
+
+
+
